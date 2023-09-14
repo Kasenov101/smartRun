@@ -1,0 +1,25 @@
+* {
+	font-family: MuseoSansCyrl, sans-serif;
+	user-select: none;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.containers_title {
+	text-align: center;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "base/variables";
+@import "blocks/advantages";
+
+@import "blocks/media";
